@@ -1,0 +1,65 @@
+body {
+    background-image: url('../images/menu-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.placeholder-menu {
+    font-size: 2rem;
+    color: #111;
+    font-size: bold;
+    margin-left: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.margin-t-l {
+    margin-top: 20%;
+}
+
+.button {
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    display: table;
+}
+
+.button p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 28px;
+}
+
+.smudge-var1 {
+    background: url('../images/menu-smudge1.png');
+    width: 247px;
+    height: 107px;
+    background-repeat: no-repeat;
+}
+
+.smudge-var2 {
+    background: url('../images/menu-smudge2.png');
+    width: 220px;
+    height: 85px;
+    background-repeat: no-repeat;
+}
+
+.smudge-var3 {
+    background: url('../images/menu-smudge3.png');
+    width: 248px;
+    height: 90px;
+    background-repeat: no-repeat;
+}

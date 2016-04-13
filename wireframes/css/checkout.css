@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.placeholder-menu {
+    font-size: 2rem;
+    color: #111;
+    font-size: bold;
+    margin-left: 10px;
+}
+
+
+body {
+    background-image: url('../images/checkout-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p,
+h2 {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.margin-t-l {
+    margin-top: 25px;
+}
+
+.button {
+    color: white;
+    display: table;
+}
+
+.button.expanded {
+    display: table;
+}
+
+.button p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: inherit;
+    text-shadow: none;
+}
+
+.editable {
+    background-color: rgba(255, 255, 255, .3);
+    padding: 5px;
+}
+
+.price {
+    float: right;
+}
