@@ -1,0 +1,107 @@
+body {
+    background-image: url('../images/checkout-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.placeholder-menu {
+    font-size: 2rem;
+    color: #111;
+    font-size: bold;
+    margin-left: 10px;
+}
+
+.item {
+    display: table;
+}
+
+.item-description {
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.item-functionality {
+    display: table-cell;
+    vertical-align: bottom;
+    width: 100px;
+    padding-bottom: 30px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.item-functionality i {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.cart-adding {
+    position: absolute;
+    border: 1px solid red;
+    background-color: red;
+    opacity: 0;
+    width: 130px;
+    height: 130px;
+    margin-top: -190px;
+    margin-left: 30px;
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #ffed69;
+    line-height: 48px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    padding-bottom: 30px;
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.plain-ole {
+    width: 188.5px;
+    height: 227px;
+    background-image: url('../images/menu-grilled-cheese-tomato-order.png');
+    background-size: 188.5px 227px;
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.mac-cheese {
+    width: 188.5px;
+    height: 224px;
+    background-image: url('../images/menu-mac-n-cheese-burger.png');
+    background-size: 188.5px 224px;
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.caprese {
+    width: 188.5px;
+    height: 224px;
+    background-image: url('../images/menu-caprese.png');
+    background-size: 188.5px 224px;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.triple-cheese {
+    width: 188.5px;
+    height: 229.5px;
+    background-image: url('../images/menu-triple-cheese.png');
+    background-size: 188.5px 224px;
+    -webkit-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+}
