@@ -8,10 +8,11 @@
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/menu-sandwich-b.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 
 <body>
-    <a class="placeholder-menu" href="index.html">&#9776;</a>
+    <a class="placeholder-menu" href="navigation.html"><i class="fa fa-bars" aria-hidden="true"></i></a>
     <div class="row">
         <div class="small-12 columns">
             <h2>sandwiches</h2>
@@ -26,11 +27,10 @@
             </a>
         </div>
         <div class="small-6 columns">
-            <a href="menu-sandwiches-b.html">
-                <div class="item mac-cheese">
-                    <p class="item-description">Mac N Cheese Burger</p>
-                </div>
-            </a>
+            <div class="item mac-cheese">
+                <p class="item-functionality"><a href="favorites.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a><a href="menu-sandwiches.html"><i class="fa fa-undo" aria-hidden="true"></i></a></p>
+            </div>
+            <a class="cart-adding" href="checkout.html"></a>
         </div>
     </div>
     <div class="row">
@@ -48,6 +48,9 @@
                 </div>
             </a>
         </div>
+    </div>
+        <div>
+        <a class="back-arrow right" href="menu-sandwiches.html"></a>
     </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>

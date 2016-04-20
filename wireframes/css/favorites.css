@@ -1,17 +1,32 @@
+@font-face {
+    font-family: 'DK Dirrrty';
+    src: url('../dk_dirrrty-files/dk_dirrrty-webfont.eot');
+    src: url('../dk_dirrrty-files/dk_dirrrty-webfont.eot?#iefix') format('embedded-opentype'), url('../dk_dirrrty-files/dk_dirrrty-webfont.woff2') format('woff2'), url('../dk_dirrrty-files/dk_dirrrty-webfont.woff') format('woff'), url('../dk_dirrrty-files/dk_dirrrty-webfont.ttf') format('truetype'), url('../dk_dirrrty-files/dk_dirrrty-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'Trashhand';
+    src: url('../trashhand-files/trashhand-webfont.eot');
+    src: url('../trashhand-files/trashhand-webfont.eot?#iefix') format('embedded-opentype'), url('../trashhand-files/trashhand-webfont.woff2') format('woff2'), url('../trashhand-files/trashhand-webfont.woff') format('woff'), url('../trashhand-files/trashhand-webfont.ttf') format('truetype'), url('../trashhand-files/trashhand-webfont.svg#svgFontName') format('svg');
+}
+
 body {
     background-image: url('../images/menu-background.png');
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Trashhand', Helvetica, sans-serif;
 }
 
 h2 {
     font-size: 60px;
     text-align: center;
     color: #ffed69;
-    margin-top: -50px;
+    margin-top: -35px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
-    -webkit-transform: rotate(-8deg);
-    transform: rotate(-8deg);
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    font-family: 'DK Dirrrty', Helvetica, sans-serif;
+
 }
 
 .placeholder-menu {
@@ -19,6 +34,25 @@ h2 {
     color: #111;
     font-size: bold;
     margin-left: 10px;
+    display: block;
+}
+
+.placeholder-menu:hover {
+    font-size: 2rem;
+    color: #ffed69;
+    font-size: bold;
+    margin-left: 10px;
+}
+
+.back-arrow {
+    width: 124px;
+    height: 75px;
+    background-image: url('../images/back-arrow@2x.png');
+    background-size: 124px 75px;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 a {
@@ -58,40 +92,16 @@ a:visited {
 
 .margin-t-l {
     margin-top: 10%;
-
 }
 
-.button {
-    color: black;
-    font-weight: bold;
-    background-color: transparent;
-    display: table;
+.favorite-item {
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+    font-size: 24px;
+    margin-left: 45px;
+    margin-top: 15px;
 }
 
-.button p {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: left;
-    font-size: 28px;
-}
-
-.smudge-var1 {
-    background: url('../images/menu-smudge1.png');
-    width: 247px;
-    height: 107px;
-    background-repeat: no-repeat;
-}
-
-.smudge-var2 {
-    background: url('../images/menu-smudge2.png');
-    width: 220px;
-    height: 85px;
-    background-repeat: no-repeat;
-}
-
-.smudge-var3 {
-    background: url('../images/menu-smudge3.png');
-    width: 248px;
-    height: 90px;
-    background-repeat: no-repeat;
+.favorite-item i {
+    padding-left: 15px;
 }

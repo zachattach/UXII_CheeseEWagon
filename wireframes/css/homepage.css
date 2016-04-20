@@ -1,30 +1,43 @@
+@font-face {
+    font-family: 'DK Dirrrty';
+    src: url('../dk_dirrrty-files/dk_dirrrty-webfont.eot');
+    src: url('../dk_dirrrty-files/dk_dirrrty-webfont.eot?#iefix') format('embedded-opentype'), url('../dk_dirrrty-files/dk_dirrrty-webfont.woff2') format('woff2'), url('../dk_dirrrty-files/dk_dirrrty-webfont.woff') format('woff'), url('../dk_dirrrty-files/dk_dirrrty-webfont.ttf') format('truetype'), url('../dk_dirrrty-files/dk_dirrrty-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'Trashhand';
+    src: url('../trashhand-files/trashhand-webfont.eot');
+    src: url('../trashhand-files/trashhandwebfont.eot?#iefix') format('embedded-opentype'), url('../trashhand-files/trashhandwebfont.woff2') format('woff2'), url('../trashhand-files/trashhandwebfont.woff') format('woff'), url('../trashhand-files/trashhandwebfont.ttf') format('truetype'), url('../trashhand-files/trashhandwebfont.svg#svgFontName') format('svg');
+}
+
 body {
     background-image: url('../images/homepage-background.png');
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: "DK Dirrrty", Helvetica, sans-serif;
 }
 
 h1 {
     font-size: 84px;
     text-align: center;
     color: #ffed69;
-    line-height: 72px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
     padding: 20px 0px;
+    font-family: "DK Dirrrty", Helvetica, sans-serif;
 }
 
 a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 a:hover {
-  color: white;
+    color: white;
 }
 
 a:visited {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .bottom-pin {
@@ -44,14 +57,22 @@ a:visited {
     font-size: 24px;
 }
 
+.button:hover {
+    background-color: transparent;
+}
+
 .wood-var1 {
     background: url('../images/homepage-button1.png');
     width: 235px;
     height: 88px;
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
 }
 
 .wood-var2 {
     background: url('../images/homepage-button2.png');
     width: 229px;
     height: 84px;
+        -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
 }
