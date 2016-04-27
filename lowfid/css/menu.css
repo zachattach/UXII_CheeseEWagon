@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'DK Dirrrty';
+    src: url('../dk_dirrrty-files/dk_dirrrty-webfont.eot');
+    src: url('../dk_dirrrty-files/dk_dirrrty-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../dk_dirrrty-files/dk_dirrrty-webfont.woff2') format('woff2'),
+    url('../dk_dirrrty-files/dk_dirrrty-webfont.woff') format('woff'),
+    url('../dk_dirrrty-files/dk_dirrrty-webfont.ttf') format('truetype'),
+    url('../dk_dirrrty-files/dk_dirrrty-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'Trashhand';
+    src: url('../trashhand-files/trashhand-webfont.eot');
+    src: url('../trashhand-files/trashhandwebfont.eot?#iefix') format('embedded-opentype'),
+    url('../trashhand-files/trashhandwebfont.woff2') format('woff2'),
+    url('../trashhand-files/trashhandwebfont.woff') format('woff'),
+    url('../trashhand-files/trashhandwebfont.ttf') format('truetype'),
+    url('../trashhand-files/trashhandwebfont.svg#svgFontName') format('svg');
+}
+
+body {
+    background-image: url('../images/menu-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Trashhand", Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #ffed69;
+    margin-top: -40px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+    font-family: "DK Dirrrty", Helvetica, sans-serif;
+}
+
+.placeholder-menu {
+    font-size: 2rem;
+    color: #111;
+    font-size: bold;
+    margin-left: 10px;
+    display: block;
+}
+
+.placeholder-menu:hover {
+    font-size: 2rem;
+    color: #ffed69;
+    font-size: bold;
+    margin-left: 10px;
+    display: block;
+}
+
+.back-arrow {
+    width: 124px;
+    height: 75px;
+    background-image: url('../images/back-arrow@2x.png');
+    background-size: 124px 75px;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.favorites {
+    display: table;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 135px;
+    height: 95px;
+    background-image: url('../images/note-paper.png');
+    background-size: 350px 141px;
+    background-position: top right;
+}
+
+.favorites > span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-top: 10px;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+.margin-t-l {
+    margin-top: 10%;
+}
+
+.button {
+    color: black;
+    background-color: transparent;
+    display: table;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.button p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 24px;
+    color: #666;
+    opacity: .9;
+}
+
+.smudge-var1 {
+    background: url('../images/menu-smudge1.png');
+    width: 247px;
+    height: 107px;
+    background-repeat: no-repeat;
+}
+
+.smudge-var2 {
+    background: url('../images/menu-smudge2.png');
+    width: 220px;
+    height: 85px;
+    background-repeat: no-repeat;
+}
+
+.smudge-var3 {
+    background: url('../images/menu-smudge3.png');
+    width: 248px;
+    height: 90px;
+    background-repeat: no-repeat;
+}
+
+[data-category] {
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+}
+
+[data-category="sandwiches"] {
+    margin-left: 30px;
+}
+
+[data-category="quesadillas"] {
+    margin-left: 45px;
+}
+
+[data-category="soups"] {
+    margin-left: 60px;
+}
