@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'DK Dirrrty';
+    src: url('../dk_dirrrty-files/dk_dirrrty-webfont.eot');
+    src: url('../dk_dirrrty-files/dk_dirrrty-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../dk_dirrrty-files/dk_dirrrty-webfont.woff2') format('woff2'),
+    url('../dk_dirrrty-files/dk_dirrrty-webfont.woff') format('woff'),
+    url('../dk_dirrrty-files/dk_dirrrty-webfont.ttf') format('truetype'),
+    url('../dk_dirrrty-files/dk_dirrrty-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'Trashhand';
+    src: url('../trashhand-files/trashhand-webfont.eot');
+    src: url('../trashhand-files/trashhandwebfont.eot?#iefix') format('embedded-opentype'),
+    url('../trashhand-files/trashhandwebfont.woff2') format('woff2'),
+    url('../trashhand-files/trashhandwebfont.woff') format('woff'),
+    url('../trashhand-files/trashhandwebfont.ttf') format('truetype'),
+    url('../trashhand-files/trashhandwebfont.svg#svgFontName') format('svg');
+}
+
+body {
+    background-image: url('../images/checkout-background.png');
+    background-size: cover;
+    background-repeat: repeat-y;
+    font-family: "Trashhand", Helvetica, sans-serif;
+}
+
+.placeholder-menu {
+    font-size: 2rem;
+    color: #111;
+    font-size: bold;
+    margin-left: 10px;
+    display: block;
+}
+
+.placeholder-menu:hover {
+    font-size: 2rem;
+    color: #ffed69;
+    font-size: bold;
+    margin-left: 10px;
+    display: block;
+}
+
+.back-arrow {
+    width: 124px;
+    height: 75px;
+    background-image: url('../images/back-arrow@2x.png');
+    background-size: 124px 75px;
+    display: block;
+    float: right;
+    right: 0;
+    bottom: 0;
+}
+
+.item {
+    display: table;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #ffed69;
+    line-height: 48px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    padding-bottom: 30px;
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+    font-family: "DK Dirrrty", Helvetica, sans-serif;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+#testing{
+    background-image: url(../images/paper-background-new.png);
+    background-size: cover;
+    background-position: center
+}
+.justwork{
+    margin-top: 4em;
+}
