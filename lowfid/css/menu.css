@@ -52,17 +52,6 @@ h2 {
     display: block;
 }
 
-.back-arrow {
-    width: 124px;
-    height: 75px;
-    background-image: url('../images/back-arrow@2x.png');
-    background-size: 124px 75px;
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
 a {
     color: black;
     text-decoration: none;

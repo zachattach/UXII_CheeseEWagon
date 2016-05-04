@@ -10,13 +10,8 @@
     src: url('../trashhand-files/trashhandwebfont.eot?#iefix') format('embedded-opentype'), url('../trashhand-files/trashhandwebfont.woff2') format('woff2'), url('../trashhand-files/trashhandwebfont.woff') format('woff'), url('../trashhand-files/trashhandwebfont.ttf') format('truetype'), url('../trashhand-files/trashhandwebfont.svg#svgFontName') format('svg');
 }
 
-* {
-    box-sizing: border-box;
-}
-
-
 body {
-    background-image: url('../images/checkout-background.png');
+    background-image: url('../images/homepage-background.png');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "DK Dirrrty", Helvetica, sans-serif;
@@ -31,6 +26,25 @@ h1 {
     font-family: "DK Dirrrty", Helvetica, sans-serif;
 }
 
+.forward-arrow {
+    background-image: url("../compiled_images/arrow-right.png");
+    color: black;
+    background-size: cover;
+    width: 200px;
+    height: 143px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+a.forward-arrow {
+    color: black;
+}
+
+a.forward-arrow:visited {
+    color: black;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -43,11 +57,6 @@ a:hover {
 a:visited {
     color: white;
     text-decoration: none;
-}
-
-.bottom-pin {
-    position: absolute;
-    bottom: 0;
 }
 
 .button {
@@ -78,13 +87,6 @@ a:visited {
     background: url('../images/homepage-button2.png');
     width: 229px;
     height: 84px;
-        -webkit-transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
     transform: rotate(-6deg);
-}
-.paper-container{
-    background-image: url(../images/account-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 520px;
-    padding-top: 50px;
 }

@@ -1,0 +1,25 @@
+.forward-arrow {
+    background-image: url("../compiled_images/arrow-right.png");
+    color: black;
+    background-size: cover;
+    width: 100px;
+    height: 76px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.back-arrow {
+    background-image: url("../compiled_images/arrow-left.png");
+    color: black;
+    background-size: cover;
+    width: 100px;
+    height: 76px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.navigating > div {
+    padding: 5px;
+}

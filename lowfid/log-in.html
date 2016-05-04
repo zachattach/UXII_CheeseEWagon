@@ -8,6 +8,7 @@
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/log-in.css">
+    <link rel="stylesheet" href="css/arrows.css">
 </head>
 
 <body>
@@ -17,26 +18,25 @@
         </div>
     </div>
     <div class="row">
-        <form>
-            <div class="row">
-                <div class="large-12 columns">
-                    <label>Username
-                        <input type="text" placeholder="large-12.columns" />
-                    </label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="large-12 columns">
-                    <label>Password
-                        <input type="text" placeholder="large-12.columns" />
-                    </label>
-                </div>
-            </div>
-        </form>
+        <div class="small-12 columns">
+            <label>Username
+                <input type="text" />
+            </label>
+        </div>
     </div>
     <div class="row">
+        <div class="small-12 columns">
+            <label>Password
+                <input type="text" />
+            </label>
+        </div>
+    </div>
+    <div class="row navigating">
+        <div class="float-left">
+            <a class="back-arrow" href="index.html"></a>
+        </div>
         <div class="float-right">
-            <a class="forward-arrow" href="menu.html">Enter</a>
+            <a class="forward-arrow" href="menu.html"></a>
         </div>
     </div>
     <script src="js/vendor/jquery.js"></script>

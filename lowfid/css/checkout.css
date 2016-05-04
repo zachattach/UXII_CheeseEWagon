@@ -21,6 +21,15 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 84px;
+    text-align: center;
+    color: #ffed69;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    padding: 20px 0px;
+    font-family: "DK Dirrrty", Helvetica, sans-serif;
+}
+
 .placeholder-menu {
     font-size: 2rem;
     color: #111;
@@ -35,17 +44,6 @@
     font-size: bold;
     margin-left: 10px;
     display: block;
-}
-
-.back-arrow {
-    width: 124px;
-    height: 75px;
-    background-image: url('../images/back-arrow@2x.png');
-    background-size: 124px 75px;
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: 0;
 }
 
 body {
