@@ -1,20 +1,15 @@
-@font-face {
-    font-family: 'DK Dirrrty';
-    src: url('../dk_dirrrty-files/dk_dirrrty-webfont.eot');
-    src: url('../dk_dirrrty-files/dk_dirrrty-webfont.eot?#iefix') format('embedded-opentype'), url('../dk_dirrrty-files/dk_dirrrty-webfont.woff2') format('woff2'), url('../dk_dirrrty-files/dk_dirrrty-webfont.woff') format('woff'), url('../dk_dirrrty-files/dk_dirrrty-webfont.ttf') format('truetype'), url('../dk_dirrrty-files/dk_dirrrty-webfont.svg#svgFontName') format('svg');
-}
-
-@font-face {
-    font-family: 'Trashhand';
-    src: url('../trashhand-files/trashhand-webfont.eot');
-    src: url('../trashhand-files/trashhandwebfont.eot?#iefix') format('embedded-opentype'), url('../trashhand-files/trashhandwebfont.woff2') format('woff2'), url('../trashhand-files/trashhandwebfont.woff') format('woff'), url('../trashhand-files/trashhandwebfont.ttf') format('truetype'), url('../trashhand-files/trashhandwebfont.svg#svgFontName') format('svg');
-}
-
 body {
-    background-image: url('../images/homepage-background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: "DK Dirrrty", Helvetica, sans-serif;
+    background-image: url('../compiled_images/wood_grain.jpg');
+    font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
 }
 
 h1 {
@@ -23,7 +18,6 @@ h1 {
     color: #ffed69;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
     padding: 20px 0px;
-    font-family: "DK Dirrrty", Helvetica, sans-serif;
 }
 
 a {
@@ -40,39 +34,42 @@ a:visited {
     text-decoration: none;
 }
 
-.bottom-pin {
-    position: absolute;
-    bottom: 0;
-}
-
 .button {
-    color: white;
+    color: black;
     background-color: transparent;
     display: table;
+    position: relative
 }
 
 .button p {
     display: table-cell;
     vertical-align: middle;
-    font-size: 24px;
+    font-size: 36px;
+}
+
+[data-action="create-account"] > p {
+    font-size: 30px;
+    line-height: 30px;
 }
 
 .button:hover {
     background-color: transparent;
+    color: orange;
 }
 
-.wood-var1 {
-    background: url('../images/homepage-button1.png');
-    width: 235px;
-    height: 88px;
+.note-paper-button {
+    background: url('../compiled_images/note-paper-button.png');
+    background-size: 262px 86px;
+    width: 262px;
+    height: 86px;
+}
+
+.rotate3 {
     -webkit-transform: rotate(3deg);
     transform: rotate(3deg);
 }
 
-.wood-var2 {
-    background: url('../images/homepage-button2.png');
-    width: 229px;
-    height: 84px;
-        -webkit-transform: rotate(-6deg);
+.rotate-6 {
+    -webkit-transform: rotate(-6deg);
     transform: rotate(-6deg);
 }

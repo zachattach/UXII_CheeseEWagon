@@ -22,4 +22,6 @@
 
 .navigating > div {
     padding: 5px;
+    position: relative;
+    z-index: 9999;
 }

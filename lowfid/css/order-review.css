@@ -12,7 +12,7 @@ h6 {
 }
 
 h1 {
-    font-size: 84px;
+    font-size: 60px;
     text-align: center;
     color: #ffed69;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
@@ -38,6 +38,16 @@ h1 {
 body {
     background-image: url('../compiled_images/wood_grain.jpg');
     font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+    color: white;
+}
+
+p {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+.big-paragraph {
+    font-size: 24px;
 }
 
 .margin-t-l {
@@ -79,4 +89,10 @@ input {
     width: 398px;
     height: 144px;
     padding: 15px;
+}
+
+.note-paper-button > div > p {
+    color: black;
+    text-shadow: none;
+    text-align: left;
 }
