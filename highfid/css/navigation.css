@@ -1,0 +1,52 @@
+body {
+    background-image: url('../compiled_images/wood_grain.jpg');
+    font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+}
+
+h1 {
+    font-size: 84px;
+    text-align: center;
+    color: #ffed69;
+    line-height: 72px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    padding: 20px 0px;
+}
+
+.back-arrow {
+    width: 124px;
+    height: 75px;
+    background-image: url('../images/back-arrow@2x.png');
+    background-size: 124px 75px;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.row {
+    margin: 100px 0px;
+}
+
+.margin-t-l {
+    margin-top: 150px;
+}
+
+a:hover {
+    color: #ffed69;
+    font-weight: bold;
+}

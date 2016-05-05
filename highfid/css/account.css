@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../compiled_images/wood_grain.jpg');
+    font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #ffed69;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    padding: 20px 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-pin {
+    position: absolute;
+    bottom: 0;
+}
+
+.button {
+    color: white;
+    background-color: transparent;
+    display: table;
+}
+
+.button p {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.paper-container {
+    background-image: url('../images/note-paper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    padding-top: 50px;
+}

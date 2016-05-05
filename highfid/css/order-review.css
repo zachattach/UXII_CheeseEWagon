@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #ffed69;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    padding: 20px 0px;
+}
+
+.placeholder-menu {
+    font-size: 2rem;
+    color: #111;
+    font-size: bold;
+    margin-left: 10px;
+    display: block;
+}
+
+.placeholder-menu:hover {
+    font-size: 2rem;
+    color: #ffed69;
+    font-size: bold;
+    margin-left: 10px;
+    display: block;
+}
+
+body {
+    background-image: url('../compiled_images/wood_grain.jpg');
+    font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+    color: white;
+}
+
+p {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+.big-paragraph {
+    font-size: 24px;
+}
+
+.margin-t-l {
+    margin-top: 25px;
+}
+
+.button {
+    color: white;
+    display: table;
+}
+
+.button.expanded {
+    display: table;
+}
+
+.button p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: inherit;
+    text-shadow: none;
+}
+
+span {
+    display: inline;
+}
+
+input {
+    display: inline;
+}
+
+.price {
+    float: right;
+}
+
+.note-paper-button {
+    background: url('../compiled_images/note-paper-button.png');
+    background-size: 398px 144px;
+    width: 398px;
+    height: 144px;
+    padding: 15px;
+}
+
+.note-paper-button > div > p {
+    color: black;
+    text-shadow: none;
+    text-align: left;
+}
