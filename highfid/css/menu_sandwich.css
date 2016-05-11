@@ -1,0 +1,10 @@
+body {
+    background-image: url('images/wood_grain.jpg');
+    font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+}
+.menuitems{
+    background-image: url(images/notebook_yellow.jpg);
+}
+.items{
+    margin-bottom: 2em;
+}
