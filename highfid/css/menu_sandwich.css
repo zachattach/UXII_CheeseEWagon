@@ -1,10 +1,44 @@
 body {
-    background-image: url('images/wood_grain.jpg');
+    background-image: url(../images/wood_grain.jpg);
     font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
 }
+#wrapper{
+    background-image: url(../images/wood_grain.jpg);
+}
 .menuitems{
-    background-image: url(images/notebook_yellow.jpg);
+    background-image: url(../images/notebook_yellow.jpg);
+    background-size: contain;
 }
 .items{
     margin-bottom: 2em;
+}
+.topbar img{
+    margin-top: 1em;
+    width: 70px;
+}
+.menutitle h1{
+    font-size: 60px;
+    text-align: center;
+    color: #000;
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+    font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+}
+p{
+    font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+}
+.menuitema{
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+.menuitemb{
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+.menuitemc{
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+.back{
+    transform: rotate(180deg)
 }
