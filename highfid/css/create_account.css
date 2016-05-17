@@ -36,10 +36,8 @@ p{
 }
 .cheesebg img{
     position: absolute;
-    width: 199px;
-    height: 199px;
-    top: -50px;
-    right: 250px;
+    top: -10px;
+    left: -10px;
 }
 input[type="text"]{
     background-color: transparent;
