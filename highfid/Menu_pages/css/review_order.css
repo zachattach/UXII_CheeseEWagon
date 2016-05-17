@@ -1,0 +1,42 @@
+body{
+    background-image: url(../images/wood_grain.jpg);
+}
+.wrapper{
+    background-image: url(../images/notebook_yellow.jpg);
+    background-size: cover;
+    margin-top: 1em;
+    height: 500px;
+}
+h1{
+    font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.1em;
+    margin-top: .5em
+}
+p{
+    font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+    font-size: 1.2em;
+}
+.totalrow{
+    padding-top: 1em;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margin-bottom: 1em;
+}
+.topbar{
+    margin-top: .5em;
+}
+.footing{
+    position: fixed;
+    bottom: 0;
+}
+.back{
+    transform: rotate(180deg);
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #ef8a01; 
+}
