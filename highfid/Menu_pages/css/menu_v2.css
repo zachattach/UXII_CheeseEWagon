@@ -1,59 +1,67 @@
-body{
-    background-image: url(../images/wood_grain.jpg);
-}
-.wrapper{
-    background-image: url(../images/notebook_yellow.jpg);
-    background-size: cover;
-    margin-top: 1em;
-    height: 500px;
-}
-h1{
-    font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
-    font-size: 5em;
-    text-align: center;
-    line-height: 1.1em;
-    margin-top: .5em;
-    margin-right: 2em;
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+body {
+  background-image: url(../images/wood_grain.jpg);
 }
 
-p{
-    font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
-    font-size: 1.8em;
-    margin-top: .5em;
+.wrapper {
+  background-image: url(../images/notebook_yellow.jpg);
+  background-size: cover;
+  margin-top: 1em;
+  height: 500px;
 }
-.topbar{
-    margin-top: 1em;
+
+h1 {
+  font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+  font-size: 5em;
+  text-align: center;
+  line-height: 1.1em;
+  margin-top: .5em;
+  margin-right: 2em;
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
-a{
-    color: black;
+
+p {
+  font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+  font-size: 1.8em;
+  margin-top: .5em;
 }
-a:hover{
-    color: #ef8a01;
+
+.topbar {
+  margin-top: 1em;
 }
-.sandw{
-    -webkit-transform: rotate(-8deg);
-    transform: rotate(-8deg);
-    background-image: url(../svg_assets/pen_circle_big-01.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 350px 200px;
-    margin-bottom: 1em;
+
+a {
+  color: black;
 }
-.ques{
-    background-image: url(../svg_assets/pen_circle_big-01.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 300px 100px;
-    margin-bottom: 1em;
+
+a:hover {
+  color: #ef8a01;
 }
-.soup{
-    -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
-    background-image: url(../svg_assets/pen_circle_big-01.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 300px 100px;
-    margin-bottom: 1em;
+
+.sandw {
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+  background-image: url(../svg_assets/pen_circle_big-01.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px 200px;
+  margin-bottom: 1em;
+}
+
+.ques {
+  background-image: url(../svg_assets/pen_circle_big-01.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  margin-bottom: 1em;
+}
+
+.soup {
+  -webkit-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+  background-image: url(../svg_assets/pen_circle_big-01.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  margin-bottom: 1em;
 }
