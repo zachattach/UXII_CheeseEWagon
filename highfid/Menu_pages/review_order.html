@@ -36,42 +36,48 @@
       </div>
     </div>
     <div class="row">
-      <div class="small-6 small-push-1 column">
+      <div class="small-5 small-push-1 column">
         <p>add a tip?</p>
       </div>
-      <div class="small-3 column">
+      <div class="small-6 column">
         <form>
           <input type="radio" name="tip" value="0"> None
-          <br>
           <input type="radio" name="tip" value="10"> 10%
-          <br>
-          <input type="radio" name="tip" value="15"> 15%
+          <input type="radio" name="tip" value="15" checked> 15%
           <br>
           <input type="radio" name="tip" value="20"> 20%
-          <br>
           <input type="radio" name="tip" value="25"> 25%
         </form>
       </div>
     </div>
     <div class="row totalrow">
-      <div class="small-5 small-push-7 column">
-        <p> total: $10</p>
+      <div class="small-5 small-push-7 column total-cost">
       </div>
     </div>
     <div class="row">
-      <div class="small-6 small-push-1 column">
-        <p>Set a pick up time</p>
+      <div class="small-5 small-push-1 column">
+        <p>You want it when?</p>
       </div>
-      <div class="small-3 column">
+      <div class="small-6 column">
         <form>
           <input type="radio" name="pickup_time" value="0" checked> ASAP
-          <br>
           <input type="radio" name="pickup_time" value="15"> 15 mins.
           <br>
           <input type="radio" name="pickup_time" value="30"> 30 mins.
-          <br>
           <input type="radio" name="pickup_time" value="60"> 1 hour
         </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-5 small-push-1 column">
+        <p>Pay for it how?</p>
+      </div>
+      <div class="small-6 column">
+        <select>
+          <option value="cash">Cash</option>
+          <option value="card">Card ending in XXXX</option>
+        </select>
+        <a href="#">+ add a credit/debit card</a>
       </div>
     </div>
     <div class="footing small-12 row">
