@@ -46,13 +46,13 @@ function add_to_cart() {
 
     LS_cart.push(item);
 
-    alert(LS_cart);
-
     localStorage.setItem("LS_cart_total", cart_total);
 
     localStorage.setItem("cart", JSON.stringify(LS_cart));
 
-    fill_cart(LS_cart);
+    cart_receipt(LS_cart);
+
+    favs_receipt(LS_cart);
 
     update_cart_total();
 
@@ -60,7 +60,8 @@ function add_to_cart() {
 
   if (localStorage.getItem("cart")) {
     LS_cart = JSON.parse(localStorage.getItem("cart"));
-    fill_cart(LS_cart);
+    cart_receipt(LS_cart);
+    favs_receipt(LS_cart);
   }
 
   function update_cart_total() {
@@ -71,7 +72,7 @@ function add_to_cart() {
     }
   }
 
-  function fill_cart(array) {
+  function cart_receipt(array) {
     var total_cost = 0;
 
     var $total_cost = $('.total-cost');
@@ -82,6 +83,15 @@ function add_to_cart() {
       $receipt.html("<div class='row'><div class='small-8 small-push-1 column item-in-cart'><p>" + array[i][0] + " (" + array[i][2] + ")</p></div><div class='small-3 column price-of-item'><p>$" + array[i][1] * array[i][2] + "</p></div></div>");
       total_cost += (array[i][1] * array[i][2]);
       $total_cost.html("<p>Total: <span class='needsblue'>$" + total_cost + "</span></p>");
+    }
+  }
+
+  function favs_receipt(array) {
+
+    var $favs_receipt = $('.receipt-favorites');
+
+    for (var i = 0; i < array.length; i++) {
+      $favs_receipt.html("<div class='small-10 centered-column row'> <input type='checkbox' class='favorites-checkbox'><label><p>" + array[i][0] + "</p></label>");
     }
   }
 }

@@ -1,20 +1,5 @@
 /* move these later to a better spot */
 
-.username {
-  color: #ffed69;
-  font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
-  font-size: 1.3em;
-}
-
-.cart-total {
-  position: absolute;
-  margin-left: -33px;
-  margin-top: 5px;
-  font-size: 2em;
-  color: white;
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-}
-
 @charset "UTF-8";
 
 /**
@@ -5825,4 +5810,33 @@ screen and (min-width: 75em) {
 .long-delay {
   -webkit-animation-delay: 700ms !important;
   animation-delay: 700ms !important;
+}
+
+body {
+  font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+}
+
+.username {
+  color: #ffed69;
+  font-size: 1.3em;
+  font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+}
+
+.cart-total {
+  position: absolute;
+  margin-left: -33px;
+  margin-top: 5px;
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+}
+
+.footerbutn a {
+  background-image: url('../images/blank_scrap-01.png');
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  display: block;
+  font-size: .9em;
 }
