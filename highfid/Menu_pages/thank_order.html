@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation for Sites</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/order_confirm.css">
+  <link rel="stylesheet" href="css/djgross-font-files/stylesheet.css">
+  <link rel="stylesheet" href="css/softsugar-font-files/stylesheet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="row topbar">
+    <div class="small-10 column">
+      <img src="images/avatar.png" width="50"><span class="username"></span>
+    </div>
+  </div>
+  <!--   <div class="small-12 small-centered row cheesebg">
+    <img src="svg_assets/cheese_compiled-01.svg">
+  </div> -->
+  <div class="wrapper">
+    <div class="row">
+      <div class="small-centered small-12 column">
+        <h1>Thanks for Ordering!</h1>
+      </div>
+    </div>
+    <div class="small-10 centered-column centerme row">
+      <p>We'll see you at <span class="needsblue pickup-time"></span>!</p>
+    </div>
+    <div class="small-10 centered-column centerme row">
+      <p>In the meantime, would you like to add any of these items to your favorites?</p>
+    </div>
+    <div class="small-10 centered-column row">
+      <input type="checkbox" name="favorites" value="grilled_cheese" id="grilled_cheese">
+      <label for="grilled_cheese">
+        <p>Plain ole grilled cheese</p>
+      </label>
+      <input type="checkbox" name="favorites" value="soup" id="soup">
+      <label for="soup">
+        <p>Tomato Soup</p>
+      </label>
+    </div>
+    <div class="small-12 row">
+      <div class="small-4 small-push-8 column footerbutn">
+        <a href="added_favorites.html" class="pickup-time-submit">
+          <p><img src="images/circled_arrow.png">Find Us!</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/get_username.js"></script>
+  <script src="js/set_pickup_time.js"></script>
+  <script src="js/add_to_cart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
