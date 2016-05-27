@@ -46,3 +46,9 @@ p{
     top: -50px;
     right: 250px;
 }
+a{
+    color: black;
+}
+a:hover{
+    color: #ef8a01;
+}
