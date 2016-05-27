@@ -4,7 +4,6 @@ function set_pickup_time() {
     var time_add = parseInt(time_set);
     var pickup_time;
 
-
     var current_time = new Date();
     hour = current_time.getHours();
     min = current_time.getMinutes();
