@@ -29,8 +29,6 @@ function add_to_cart() {
       }
     }
 
-    LS_cart = [];
-
     if (localStorage.getItem("cart")) {
       LS_cart = JSON.parse(localStorage.getItem("cart"));
     }

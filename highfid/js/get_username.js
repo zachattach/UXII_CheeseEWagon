@@ -18,7 +18,5 @@ function get_username() {
   if (localStorage.getItem("LS_username")) {
 
     $('.username').html(localStorage.getItem("LS_username"));
-
-    //console.log(localStorage.getItem('savedBuses'));
   }
 }
