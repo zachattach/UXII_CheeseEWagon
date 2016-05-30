@@ -1,0 +1,82 @@
+body{
+    background-image: url(../images/wood_grain.jpg);
+}
+.topbar{
+    padding-top: .5em;
+}
+#wrapper{
+    background-image: url(../images/notebook_yellow.jpg);
+    background-size: contain;
+}
+.lunch img{
+    float: right;
+}
+.menutitle h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #000;
+  -webkit-transform: rotate(8deg);
+  transform: rotate(8deg);
+  font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+}
+.desc{
+    margin-bottom: .5em;
+}
+.menuitem{
+    margin-bottom: 2.5em;
+}
+.quant{
+    -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+input[type="text"] {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: .3em;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+}
+
+input::-webkit-input-placeholder {
+  color: #606060;
+  text-align: center;
+  font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+  font-size: 1.5em;
+}
+.footer{
+    opacity: 1;
+}
+.footing {
+/*  margin-top: 3em;*/
+  position: fixed;
+  bottom: 0;
+    text-align: center;
+    background: rgba(255, 255, 255, .5);
+}
+
+.lastitem {
+  margin-bottom: 6em;
+}
+.footing a {
+  color: black;
+}
+.back {
+  -webkit-transform: rotate(180deg);  
+  transform: rotate(180deg);
+}
+.menuitema {
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+.menuitemb {
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+.menuitemc {
+  -webkit-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+p{
+    text-align: center;
+}
