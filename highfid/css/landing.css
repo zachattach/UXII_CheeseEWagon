@@ -27,9 +27,9 @@ p{
     line-height: 1em;
     text-align: center;
 }
-.link1{
-     -webkit-transform: rotate(-8deg);
-    transform: rotate(-8deg);
+.link1 img{
+/*     -webkit-transform: rotate(-8deg);*/
+/*    transform: rotate(-8deg);*/
 }
 .link2{
      -webkit-transform: rotate(8deg);

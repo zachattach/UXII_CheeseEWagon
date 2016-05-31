@@ -30,7 +30,9 @@ p {
 .topbar {
   margin-top: 1em;
 }
-
+.lunch img{
+    float: right;
+}
 a {
   color: black;
 }

@@ -20,6 +20,9 @@ h1{
     line-height: 1.1em;
     margin-top: .5em
 }
+.lunch img{
+    float: right;
+}
 p{
     font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
     font-size: 1.2em;
@@ -32,12 +35,16 @@ p{
 .topbar{
     margin-top: .5em;
 }
-.footing{
-    position: fixed;
-    bottom: 0;
+
+.footing {
+/*  margin-top: 3em;*/
+  position: fixed;
+  bottom: 0;
+    text-align: center;
+    background: rgba(255, 255, 255, .8);
 }
-.footing img{
-    width: 60px;
+.footing a {
+  color: black;
 }
 .footerbutn{
 /*    background-image: url(../images/blank_scrap-01.svg);*/

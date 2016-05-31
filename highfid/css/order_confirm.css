@@ -26,12 +26,12 @@ p{
 .topbar{
     margin-top: .5em;
 }
-.footing{
-    position: fixed;
-    bottom: 0;
-}
-.footing img{
-    width: 60px;
+.footing {
+/*  margin-top: 3em;*/
+  position: fixed;
+  bottom: 0;
+    text-align: center;
+    background: rgba(255, 255, 255, .8);
 }
 .back{
     -webkit-transform: rotate(180deg);
