@@ -5,7 +5,7 @@ function get_username() {
   $('.username-submit').click(function() {
     var username = $('.username-input').val();
 
-    if (!username){
+    if (!username) {
       username = "Guest";
     }
 

@@ -1,10 +1,10 @@
 function add_to_cart() {
 
-  //localStorage.clear();
+  localStorage.clear();
 
   update_cart_total();
 
-  var LS_cart;
+  var LS_cart = [];
 
   var cart_total = parseInt(localStorage.getItem("LS_cart_total"));
 
@@ -13,6 +13,8 @@ function add_to_cart() {
   }
 
   $('.add-to-cart').click(function() {
+
+    //$("#dialog").dialog();
 
     var checked = $(this).is(":checked");
 
