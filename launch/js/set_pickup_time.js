@@ -1,6 +1,6 @@
 function set_pickup_time() {
   $('.pickup-time-submit').click(function() {
-    var time_set = $("input:radio[name=pickup_time]:checked").val();
+    var time_set = $("input:radio[name=pickup]:checked").val();
     var time_add = parseInt(time_set);
     var pickup_time;
 

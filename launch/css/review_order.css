@@ -6,7 +6,8 @@ body {
   background-image: url(../images/notebook_yellow.jpg);
   background-size: cover;
   margin-top: 1em;
-  height: 800px;
+  height: auto;
+  margin-bottom: 5em;
 }
 
 h1 {
@@ -71,7 +72,7 @@ input[type=radio].css-checkbox {
 
 						input[type=radio].css-checkbox + label.css-label {
 							padding-left:30px;
-							height:25px; 
+							height:25px;
 							display:inline-block;
 							line-height:25px;
 							background-repeat:no-repeat;

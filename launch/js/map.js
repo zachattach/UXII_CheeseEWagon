@@ -21,7 +21,7 @@ function createMap(city) {
   var marker = new google.maps.Marker({
     position: city,
     map: map,
-    title: 'Mac Mart',
+    title: 'Cheese E. Wagon',
     animation: google.maps.Animation.DROP,
     icon: icon
   });

@@ -29,7 +29,7 @@ body{
     -webkit-transform: rotate(-20deg);
   transform: rotate(-20deg);
 }
-input[type="text"] {
+input[type="number"] {
   background-color: transparent;
   border: 0px;
   border-bottom: .3em;
@@ -62,7 +62,7 @@ input::-webkit-input-placeholder {
   color: black;
 }
 .back {
-  -webkit-transform: rotate(180deg);  
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .menuitema {
