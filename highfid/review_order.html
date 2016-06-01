@@ -33,11 +33,16 @@
       </div>
       <div class="small-6 column marbtm">
         <form>
-          <input type="radio" name="tip" id="radio1" class="css-checkbox" value="0" checked/><label for="radio1" class="css-label radGroup1">0</label>
-          <input type="radio" name="tip" id="radio2" class="css-checkbox" value="10"/><label for="radio2" class="css-label radGroup1">10%</label>
-          <input type="radio" name="tip" id="radio3" class="css-checkbox" value="15" /><label for="radio3" class="css-label radGroup1">15%</label>
-          <input type="radio" name="tip" id="radio4" class="css-checkbox" value="20"/><label for="radio4" class="css-label radGroup1">20%</label>
-          <input type="radio" name="tip" id="radio5" class="css-checkbox" value="25"/><label for="radio5" class="css-label radGroup1">25%</label>
+          <input type="radio" name="tip" id="radio1" class="css-checkbox js-tip-adder" value="0" />
+          <label for="radio1" class="css-label radGroup1">0</label>
+          <input type="radio" name="tip" id="radio2" class="css-checkbox js-tip-adder" value="10" />
+          <label for="radio2" class="css-label radGroup1">10%</label>
+          <input type="radio" name="tip" id="radio3" class="css-checkbox js-tip-adder" value="15" />
+          <label for="radio3" class="css-label radGroup1">15%</label>
+          <input type="radio" name="tip" id="radio4" class="css-checkbox js-tip-adder" value="20" />
+          <label for="radio4" class="css-label radGroup1">20%</label>
+          <input type="radio" name="tip" id="radio5" class="css-checkbox js-tip-adder" value="25" />
+          <label for="radio5" class="css-label radGroup1">25%</label>
         </form>
       </div>
     </div>
@@ -51,10 +56,14 @@
       </div>
       <div class="small-6 column margbtm">
         <form>
-          <input type="radio" name="pickup" id="radio6" class="css-checkbox" value="0" checked/><label for="radio6" class="css-label radGroup1">ASAP</label>
-          <input type="radio" name="pickup" id="radio7" class="css-checkbox" value="15"/><label for="radio7" class="css-label radGroup1">15 mins.</label>.
-          <input type="radio" name="pickup" id="radio8" class="css-checkbox" value="30"/><label for="radio8" class="css-label radGroup1">30 mins.</label>
-          <input type="radio" name="pickup" id="radio3" class="css-checkbox" value="60"/><label for="radio9" class="css-label radGroup1">60 mins</label>
+          <input type="radio" name="pickup" id="radio6" class="css-checkbox" value="0" checked/>
+          <label for="radio6" class="css-label radGroup1">ASAP</label>
+          <input type="radio" name="pickup" id="radio7" class="css-checkbox" value="15" />
+          <label for="radio7" class="css-label radGroup1">15 mins.</label>
+          <input type="radio" name="pickup" id="radio8" class="css-checkbox" value="30" />
+          <label for="radio8" class="css-label radGroup1">30 mins.</label>
+          <input type="radio" name="pickup" id="radio3" class="css-checkbox" value="60" />
+          <label for="radio9" class="css-label radGroup1">60 mins</label>
         </form>
       </div>
     </div>
@@ -70,15 +79,15 @@
         <a href="#">+ add a credit/debit card</a>
       </div>
     </div>
-    </div>
-      <div class="footing small-12 row">
+  </div>
+  <div class="footing small-12 row">
     <div class="small-3 column footer">
       <a href="menu_v2.html">
         <img src="updates/menu_-01.svg">
       </a>
     </div>
     <div class="small-3 column footer">
-      <a href="order_confirm.html">
+      <a href="order_confirm.html" class="pickup-time-submit">
         <img src="updates/checkout-01.svg">
       </a>
     </div>

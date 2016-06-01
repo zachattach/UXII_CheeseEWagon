@@ -4,6 +4,7 @@ $(document).ready(function() {
   get_username();
   set_pickup_time();
   add_to_cart();
+  favorites();
 });
 
 // cart array structure
