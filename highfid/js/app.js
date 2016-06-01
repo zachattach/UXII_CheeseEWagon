@@ -4,7 +4,6 @@ $(document).ready(function() {
   get_username();
   set_pickup_time();
   add_to_cart();
-  fallingSnow();
 });
 
 // cart array structure

@@ -1,16 +1,24 @@
-body{
-    background-image: url(../images/wood_grain.jpg);
+* {
+  box-sizing: border-box;
 }
-.topbar{
-    padding-top: .5em;
+
+body {
+  background-image: url(../images/wood_grain.jpg);
 }
-#wrapper{
-    background-image: url(../images/notebook_yellow.jpg);
-    background-size: contain;
+
+.topbar {
+  padding-top: .5em;
 }
-.lunch img{
-    float: right;
+
+#wrapper {
+  background-image: url(../images/notebook_yellow.jpg);
+  background-size: contain;
 }
+
+.lunch img {
+  float: right;
+}
+
 .menutitle h1 {
   font-size: 60px;
   text-align: center;
@@ -19,17 +27,21 @@ body{
   transform: rotate(8deg);
   font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
 }
-.desc{
-    margin-bottom: .5em;
+
+.desc {
+  margin-bottom: .5em;
 }
-.menuitem{
-    margin-bottom: 2.5em;
+
+.menuitem {
+  margin-bottom: 2.5em;
 }
-.quant{
-    -webkit-transform: rotate(-20deg);
+
+.quant {
+  -webkit-transform: rotate(-20deg);
   transform: rotate(-20deg);
 }
-input[type="text"] {
+
+input[type="number"] {
   background-color: transparent;
   border: 0px;
   border-bottom: .3em;
@@ -44,39 +56,70 @@ input::-webkit-input-placeholder {
   font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
   font-size: 1.5em;
 }
-.footer{
-    opacity: 1;
+
+.footer {
+  opacity: 1;
 }
+
 .footing {
-/*  margin-top: 3em;*/
+  /*  margin-top: 3em;*/
   position: fixed;
   bottom: 0;
-    text-align: center;
-    background: rgba(255, 255, 255, .5);
+  text-align: center;
+  background: rgba(255, 255, 255, .5);
 }
 
 .lastitem {
   margin-bottom: 6em;
 }
+
 .footing a {
   color: black;
 }
+
 .back {
-  -webkit-transform: rotate(180deg);  
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+
 .menuitema {
   -webkit-transform: rotate(7deg);
   transform: rotate(7deg);
 }
+
 .menuitemb {
   -webkit-transform: rotate(-5deg);
   transform: rotate(-5deg);
 }
+
 .menuitemc {
   -webkit-transform: rotate(3deg);
   transform: rotate(3deg);
 }
-p{
-    text-align: center;
+
+p {
+  text-align: center;
+}
+
+.modal-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.add-to-cart-alert {
+  z-index: 10;
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: white;
 }

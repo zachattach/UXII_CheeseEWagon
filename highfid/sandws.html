@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <!-- <div class="modal-bg"></div> -->
   <div class="row topbar">
     <div class="small-9 column">
       <img src="images/avatar.png" width="40"><span class="username"></span>
@@ -22,10 +23,24 @@
       <a href="review_order.html"><img src="updates/lunchbag-01.svg" width="60"><span class="cart-total"></span></a>
     </div>
   </div>
+<!--   <div class="add-to-cart-alert row">
+    <span>Added to bag!</span> <img src="updates/lunchbag-01.svg" width="60">
+  </div> -->
   <div id="wrapper">
     <div class="small-8 small-centered row menutitle">
       <h1>Sandwiches</h1>
     </div>
+
+
+
+
+
+
+
+
+
+
+
     <div class="small-12 small-centered menuitem row">
       <div class="small-5 column">
         <img src="updates/menu_items/grilled_cheese_tomato-01.svg" />
@@ -38,28 +53,45 @@
           <div class="small-3 column quant">
             <p>Quantity:</p>
           </div>
-          <div class="small-3 column">
+          <div class="small-3 column js-plus-one-quantity">
             <img src="updates/plus-01-01.svg">
           </div>
-          <div class="small-3 column">
+          <div class="small-3 column item-quantity-input">
             <label>
-              <input class="item-quantity" type="text" placeholder="0" maxlength="2" />
+              <input class="item-quantity" type="number" name="item-quantity" min="1" max="5" placeholder="0" value="0" />
             </label>
           </div>
-          <div class="small-3 column">
+          <div class="small-3 column js-minus-one-quantity">
             <img src="updates/minus-01-01.svg">
           </div>
         </div>
         <div class="row">
-          <div class="small-8 small-centered column add-to-cart data-item=" Triple Grilled Cheese " data-price="6 "">
+          <div class="small-8 small-centered column js-add-to-cart" data-item="Plain Ol' Grilled Cheese" data-price="6">
             <img src="updates/add_cart-01.svg">
           </div>
         </div>
       </div>
-      <div id="dialog" title="Basic dialog">
-        <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
-      </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="small-12 small-centered menuitem row">
       <div class="small-5 column">
         <img src="updates/menu_items/tripple_grilled_cheese-01.svg" />
@@ -72,7 +104,7 @@
           <div class="small-3 column quant">
             <p>Quantity:</p>
           </div>
-          <div class="small-3 column">
+          <div class="small-3 column js-plus-one-quantity">
             <img src="updates/plus-01-01.svg">
           </div>
           <div class="small-3 column">
@@ -80,7 +112,7 @@
               <input class="item-quantity" type="text" placeholder="0" maxlength="2" />
             </label>
           </div>
-          <div class="small-3 column">
+          <div class="small-3 column js-minus-one-quantity">
             <img src="updates/minus-01-01.svg">
           </div>
         </div>
