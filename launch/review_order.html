@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- HTML5 Shim so new layout elements are supported by <= IE9 -->
+  <!--[if lt IE 9]>
+     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+
+  <!-- Viewport for responsive design to show up on small screens   -->
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <title>Reviewing your order - Cheese E. Wagon</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/review_order.css">
+  <link rel="stylesheet" href="css/djgross_normal_ubasic/stylesheet.css">
+  <link rel="stylesheet" href="css/softsugar-font-files/stylesheet.css">
+  <link rel="stylesheet" href="css/helvetihand/stylesheet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="row topbar">
+    <div class="small-10 column">
+      <a href="account_settings.html"><img src="images/avatar.png" width="40"><span class="username"></span></a>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="row">
+      <div class="small-centered small-12 column">
+        <h1>Review Order</h1>
+      </div>
+    </div>
+    <div class="receipt">
+    </div>
+    <div class="row margbtm">
+      <div class="small-5 small-push-1 column">
+        <p>add a tip?</p>
+      </div>
+      <div class="small-6 column marbtm">
+        <form>
+          <div class="row">
+            <input type="radio" name="tip" id="radio1" class="css-checkbox js-tip-adder" value="0" />
+            <label for="radio1" class="css-label radGroup1">0</label>
+          </div>
+          <div class="row">
+            <input type="radio" name="tip" id="radio2" class="css-checkbox js-tip-adder" value="10" />
+            <label for="radio2" class="css-label radGroup1">10%</label>
+          </div>
+          <div class="row">
+            <input type="radio" name="tip" id="radio3" class="css-checkbox js-tip-adder" value="15" />
+            <label for="radio3" class="css-label radGroup1">15%</label>
+          </div>
+          <div class="row">
+            <input type="radio" name="tip" id="radio4" class="css-checkbox js-tip-adder" value="20" />
+            <label for="radio4" class="css-label radGroup1">20%</label>
+          </div>
+          <div class="row">
+            <input type="radio" name="tip" id="radio5" class="css-checkbox js-tip-adder" value="25" />
+            <label for="radio5" class="css-label radGroup1">25%</label>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row totalrow">
+      <div class="small-5 small-push-7 column total-cost">
+      </div>
+    </div>
+    <div class="row margbtm">
+      <div class="small-5 small-push-1 column">
+        <p>You want it when?</p>
+      </div>
+      <div class="small-6 column">
+        <form>
+          <div class="row">
+            <input type="radio" name="pickup" id="radio6" class="css-checkbox" value="0" checked/>
+            <label for="radio6" class="css-label radGroup1">ASAP</label>
+          </div>
+          <div class="row">
+            <input type="radio" name="pickup" id="radio7" class="css-checkbox" value="15" />
+            <label for="radio7" class="css-label radGroup1">15 mins.</label>
+          </div>
+          <div class="row">
+            <input type="radio" name="pickup" id="radio8" class="css-checkbox" value="30" />
+            <label for="radio8" class="css-label radGroup1">30 mins.</label>
+          </div>
+          <div class="row">
+            <input type="radio" name="pickup" id="radio3" class="css-checkbox" value="60" />
+            <label for="radio9" class="css-label radGroup1">60 mins.</label>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-5 small-push-1 column">
+        <p>Pay for it how?</p>
+      </div>
+      <div class="small-6 column">
+        <select>
+          <option value="cash">Cash</option>
+          <option value="card">Card ending in XXXX</option>
+        </select>
+        <a href="#">+ add a credit/debit card</a>
+      </div>
+    </div>
+  </div>
+  <div class="footing small-12 row">
+    <div class="small-3 column footer">
+      <a href="menu_v2.html">
+        <img src="images/menu_-01.svg">
+      </a>
+    </div>
+    <div class="small-3 column footer">
+      <a href="order_confirm.html" class="pickup-time-submit">
+        <img src="images/checkout-01.svg">
+      </a>
+    </div>
+  </div>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/get_username.js"></script>
+  <script src="js/set_pickup_time.js"></script>
+  <script src="js/cart_handler.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

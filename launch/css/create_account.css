@@ -1,0 +1,102 @@
+body {
+  background-image: url(../images/wood_grain.jpg);
+}
+
+.wrapper {
+  background-image: url(../images/notebook_yellow.jpg);
+  background-size: cover;
+  margin-top: 4em;
+  height: 500px;
+  padding-bottom: 70px;
+}
+
+h1 {
+  font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+  font-size: 4em;
+  text-align: center;
+  line-height: 1.1em;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+.links {
+  padding-top: 1em;
+}
+
+p {
+  font-family:
+}
+
+.link1 {
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+
+.link2 {
+  -webkit-transform: rotate(8deg);
+  transform: rotate(8deg);
+}
+
+.link3 {
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+.cheesebg img {
+  position: absolute;
+  width: 199px;
+  height: 199px;
+  top: -50px;
+  right: 250px;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: .3em;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+}
+
+input::-webkit-input-placeholder {
+  color: #606060;
+  text-align: center;
+  font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+  font-size: 1.5em;
+}
+
+.textinputs {
+  margin-bottom: 1em;
+}
+
+.arrow img {
+  margin-top: 3em;
+  width: 100px;
+}
+
+.back {
+  transform: rotate(180deg)
+}
+
+.footing {
+  /*  margin-top: 3em;*/
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background: rgba(255, 255, 255, .7);
+}
+
+.footing a {
+  color: black;
+}
+
+.footer {
+  /*    padding-top: .2em;*/
+}
+
+p {
+  font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+  font-size: 1.2em;
+}

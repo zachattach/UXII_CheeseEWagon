@@ -1,0 +1,62 @@
+body {
+  background-image: url(../images/wood_grain.jpg);
+  font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+}
+
+#wrapper {
+  background-image: url(../images/wood_grain.jpg);
+  padding-bottom: 70px;
+}
+
+.menuitems {
+  background-image: url(../images/notebook_yellow.jpg);
+  background-size: contain;
+}
+
+.items {
+  margin-bottom: 2em;
+}
+
+
+}
+.topbar img {
+  margin-top: 1em;
+}
+.menutitle h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #000;
+  -webkit-transform: rotate(8deg);
+  transform: rotate(8deg);
+  font-family: 'Soft Sugar', 'Comic Sans MS', fantasy;
+}
+p {
+  font-family: 'DJ Gross', 'Comic Sans MS', fantasy;
+  font-weight: 800;
+}
+.menuitema {
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+.menuitemb {
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+.menuitemc {
+  -webkit-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.back {
+  transform: rotate(180deg)
+}
+.footing {
+  margin-top: 1em;
+  position: fixed;
+  bottom: 0;
+}
+.lastitem {
+  margin-bottom: 8em;
+}
+.footing a {
+  color: black;
+}
