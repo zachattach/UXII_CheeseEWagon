@@ -1,4 +1,4 @@
-function add_to_cart() {
+function cart_handler() {
 
   var LS_cart;
 
@@ -129,8 +129,6 @@ function add_to_cart() {
 
     }
   }
-
-
 
   //localStorage.clear();
 

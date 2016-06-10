@@ -3,7 +3,7 @@ $(document).foundation()
 $(document).ready(function() {
   get_username();
   set_pickup_time();
-  add_to_cart();
+  cart_handler();
   favorites();
 });
 

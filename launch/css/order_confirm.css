@@ -74,8 +74,11 @@ a:hover {
 }
 
 .acclink p {
+  background-image: url(../images/pen_circle_big-01.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: .5em;
   font-size: 1.1em;
   line-height: 1em;
-  color: #4daa55;
+  padding:2em;
 }
