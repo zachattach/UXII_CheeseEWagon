@@ -6,7 +6,7 @@ body{
     background-size: cover;
     margin-top: 1em;
     height: 500px;
-    padding-bottom: 2em;
+  padding-bottom: 70px;
 }
 .wrapper1{
     background-image: url(../images/notebook_yellow.jpg);

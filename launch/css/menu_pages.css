@@ -9,7 +9,7 @@ body {
 #wrapper {
   background-image: url(../images/notebook_yellow.jpg);
   background-size: contain;
-  padding-bottom: 2em;
+  padding-bottom: 70px;
 }
 
 .lunch img {
