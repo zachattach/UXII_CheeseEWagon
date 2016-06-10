@@ -5,6 +5,7 @@ body {
 
 #wrapper {
   background-image: url(../images/wood_grain.jpg);
+  margin-bottom: 5em;
 }
 
 .menuitems {

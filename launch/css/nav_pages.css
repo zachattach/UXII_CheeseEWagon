@@ -6,11 +6,13 @@ body{
     background-size: cover;
     margin-top: 1em;
     height: 500px;
+      margin-bottom: 5em;
 }
 .wrapper1{
     background-image: url(../images/notebook_yellow.jpg);
     background-size: cover;
     margin-top: 1em;
+      margin-bottom: 5em;
 /*    height: 500px;*/
 }
 h1{

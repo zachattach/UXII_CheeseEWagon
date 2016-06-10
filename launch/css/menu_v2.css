@@ -7,6 +7,7 @@ body {
   background-size: cover;
   margin-top: 1em;
   height: 500px;
+  margin-bottom: 5em;
 }
 
 h1 {
@@ -30,9 +31,11 @@ p {
 .topbar {
   margin-top: 1em;
 }
-.lunch img{
-    float: right;
+
+.lunch img {
+  float: right;
 }
+
 a {
   color: black;
 }
