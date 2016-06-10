@@ -44,7 +44,7 @@ a:hover {
 .sandw {
   -webkit-transform: rotate(-8deg);
   transform: rotate(-8deg);
-  background-image: url(../svg_assets/pen_circle_big-01.svg);
+  background-image: url(../images/pen_circle_big-01.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 350px 200px;
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .ques {
-  background-image: url(../svg_assets/pen_circle_big-01.svg);
+  background-image: url(../images/pen_circle_big-01.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px 100px;
@@ -62,7 +62,7 @@ a:hover {
 .soup {
   -webkit-transform: rotate(-4deg);
   transform: rotate(-4deg);
-  background-image: url(../svg_assets/pen_circle_big-01.svg);
+  background-image: url(../images/pen_circle_big-01.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px 100px;

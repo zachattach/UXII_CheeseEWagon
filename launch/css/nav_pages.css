@@ -41,7 +41,7 @@ p{
   position: fixed;
   bottom: 0;
     text-align: center;
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, .7);
 }
 .footing a {
   color: black;
@@ -58,7 +58,7 @@ a{
     color: black;
 }
 a:hover{
-    color: #ef8a01; 
+    color: #ef8a01;
 }
 .needsblue{
     color: #014077;
@@ -68,7 +68,7 @@ a:hover{
     -webkit-transform: rotate(-12deg);
 }
 .editinfo{
-    background-image: url(../svg_assets/pen_circle_big-01.svg);
+    background-image: url(../images/pen_circle_big-01.svg);
     padding-top: .5em;
     background-repeat: no-repeat;
 }
